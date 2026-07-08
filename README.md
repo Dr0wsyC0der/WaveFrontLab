@@ -38,7 +38,7 @@ python main.py
 
 #### Сборка образа
 ```bash
-docker build -t video-processor .
+docker build -t wavefrontlab .
 ```
 
 #### Запуск контейнера
@@ -51,7 +51,7 @@ docker-compose up
 docker run -it --rm \
   -e DISPLAY=$DISPLAY \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  video-processor
+  wavefrontlab
 ```
 
 ## Основные возможности
